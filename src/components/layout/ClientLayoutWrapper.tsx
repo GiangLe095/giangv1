@@ -1,8 +1,8 @@
 "use client";
 
-import Header from "../header";
-import Sidebar from "../sidebar";
-import { useSidebar } from "@/hooks/use-sidebar";
+import Header from "@/components/header";
+import Sidebar from "@/components/sidebar";
+import useSidebar from "@/hooks/ueSidebar";
 
 
 export default function ClientLayoutWrapper ({children}: {children: React.ReactNode}) {
@@ -29,6 +29,5 @@ export default function ClientLayoutWrapper ({children}: {children: React.ReactN
                     <div className='flex-1'> {children}</div>
                 </div>
             </div>
-        </div>
     )
 }

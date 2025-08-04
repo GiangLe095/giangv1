@@ -12,7 +12,7 @@ import { Button } from "@/components/ui/button";
 
 
 interface LogoutModalProps {
-    isOpen: boolean;    
+    isOpen?: boolean;    
 }
 
 const LogoutModal = ({isOpen}: LogoutModalProps) => {
